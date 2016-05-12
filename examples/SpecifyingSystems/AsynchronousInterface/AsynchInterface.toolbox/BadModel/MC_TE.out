@@ -8,12 +8,12 @@ Running in Model-Checking mode.
 Starting SANY...
 @!@!@ENDMSG 2220 @!@!@
 Parsing file MC.tla
-Parsing file HourClock.tla
+Parsing file AsynchInterface.tla
 Parsing file C:\Tool\Common\tla\plugins\org.lamport.tlatools_1.0.0.201512230951\tla2sany\StandardModules\TLC.tla
 Parsing file C:\Tool\Common\tla\plugins\org.lamport.tlatools_1.0.0.201512230951\tla2sany\StandardModules\Naturals.tla
 Parsing file C:\Tool\Common\tla\plugins\org.lamport.tlatools_1.0.0.201512230951\tla2sany\StandardModules\Sequences.tla
 Semantic processing of module Naturals
-Semantic processing of module HourClock
+Semantic processing of module AsynchInterface
 Semantic processing of module Sequences
 Semantic processing of module TLC
 Semantic processing of module MC
@@ -21,56 +21,32 @@ Semantic processing of module MC
 SANY finished.
 @!@!@ENDMSG 2219 @!@!@
 @!@!@STARTMSG 2185:0 @!@!@
-Starting... (2016-05-12 09:50:09)
+Starting... (2016-05-12 10:18:00)
 @!@!@ENDMSG 2185 @!@!@
 @!@!@STARTMSG 2189:0 @!@!@
 Computing initial states...
 @!@!@ENDMSG 2189 @!@!@
 @!@!@STARTMSG 2108:1 @!@!@
-Property prop_1463017808676120000 is violated by the initial state:
-hr = 4
+Property line 20, col 17 to line 20, col 27 of module MC is violated by the initial state:
+/\ val = d1
+/\ rdy = 1
+/\ ack = 1
 
 @!@!@ENDMSG 2108 @!@!@
 @!@!@STARTMSG 2108:1 @!@!@
-Property prop_1463017808676120000 is violated by the initial state:
-hr = 5
+Property line 20, col 17 to line 20, col 27 of module MC is violated by the initial state:
+/\ val = d2
+/\ rdy = 1
+/\ ack = 1
 
 @!@!@ENDMSG 2108 @!@!@
 @!@!@STARTMSG 2108:1 @!@!@
-Property prop_1463017808676120000 is violated by the initial state:
-hr = 6
-
-@!@!@ENDMSG 2108 @!@!@
-@!@!@STARTMSG 2108:1 @!@!@
-Property prop_1463017808676120000 is violated by the initial state:
-hr = 7
-
-@!@!@ENDMSG 2108 @!@!@
-@!@!@STARTMSG 2108:1 @!@!@
-Property prop_1463017808676120000 is violated by the initial state:
-hr = 8
-
-@!@!@ENDMSG 2108 @!@!@
-@!@!@STARTMSG 2108:1 @!@!@
-Property prop_1463017808676120000 is violated by the initial state:
-hr = 9
-
-@!@!@ENDMSG 2108 @!@!@
-@!@!@STARTMSG 2108:1 @!@!@
-Property prop_1463017808676120000 is violated by the initial state:
-hr = 10
-
-@!@!@ENDMSG 2108 @!@!@
-@!@!@STARTMSG 2108:1 @!@!@
-Property prop_1463017808676120000 is violated by the initial state:
-hr = 11
-
-@!@!@ENDMSG 2108 @!@!@
-@!@!@STARTMSG 2108:1 @!@!@
-Property prop_1463017808676120000 is violated by the initial state:
-hr = 12
+Property line 20, col 17 to line 20, col 27 of module MC is violated by the initial state:
+/\ val = d3
+/\ rdy = 1
+/\ ack = 1
 
 @!@!@ENDMSG 2108 @!@!@
 @!@!@STARTMSG 2186:0 @!@!@
-Finished in 00s at (2016-05-12 09:50:09)
+Finished in 00s at (2016-05-12 10:18:01)
 @!@!@ENDMSG 2186 @!@!@

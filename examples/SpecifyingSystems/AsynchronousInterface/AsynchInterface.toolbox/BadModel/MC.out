@@ -21,17 +21,32 @@ Semantic processing of module MC
 SANY finished.
 @!@!@ENDMSG 2219 @!@!@
 @!@!@STARTMSG 2185:0 @!@!@
-Starting... (2016-05-11 14:25:20)
+Starting... (2016-05-12 10:18:00)
 @!@!@ENDMSG 2185 @!@!@
-@!@!@STARTMSG 1000:1 @!@!@
-TLC threw an unexpected exception.
-This was probably caused by an error in the spec or model.
-See the User Output or TLC Console for clues to what happened.
-The exception was a java.lang.RuntimeException
-: @!@!@STARTMSG 2230:0 @!@!@
-The constraint of constr_146294791939677000 is equal to FALSE
-@!@!@ENDMSG 2230 @!@!@
-@!@!@ENDMSG 1000 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2108:1 @!@!@
+Property line 20, col 17 to line 20, col 27 of module MC is violated by the initial state:
+/\ val = d1
+/\ rdy = 1
+/\ ack = 1
+
+@!@!@ENDMSG 2108 @!@!@
+@!@!@STARTMSG 2108:1 @!@!@
+Property line 20, col 17 to line 20, col 27 of module MC is violated by the initial state:
+/\ val = d2
+/\ rdy = 1
+/\ ack = 1
+
+@!@!@ENDMSG 2108 @!@!@
+@!@!@STARTMSG 2108:1 @!@!@
+Property line 20, col 17 to line 20, col 27 of module MC is violated by the initial state:
+/\ val = d3
+/\ rdy = 1
+/\ ack = 1
+
+@!@!@ENDMSG 2108 @!@!@
 @!@!@STARTMSG 2186:0 @!@!@
-Finished in 00s at (2016-05-11 14:25:20)
+Finished in 00s at (2016-05-12 10:18:01)
 @!@!@ENDMSG 2186 @!@!@

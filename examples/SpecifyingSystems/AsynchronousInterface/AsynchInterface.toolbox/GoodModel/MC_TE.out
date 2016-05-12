@@ -8,12 +8,12 @@ Running in Model-Checking mode.
 Starting SANY...
 @!@!@ENDMSG 2220 @!@!@
 Parsing file MC.tla
-Parsing file HourClock.tla
+Parsing file AsynchInterface.tla
 Parsing file C:\Tool\Common\tla\plugins\org.lamport.tlatools_1.0.0.201512230951\tla2sany\StandardModules\TLC.tla
 Parsing file C:\Tool\Common\tla\plugins\org.lamport.tlatools_1.0.0.201512230951\tla2sany\StandardModules\Naturals.tla
 Parsing file C:\Tool\Common\tla\plugins\org.lamport.tlatools_1.0.0.201512230951\tla2sany\StandardModules\Sequences.tla
 Semantic processing of module Naturals
-Semantic processing of module HourClock
+Semantic processing of module AsynchInterface
 Semantic processing of module Sequences
 Semantic processing of module TLC
 Semantic processing of module MC
@@ -21,39 +21,54 @@ Semantic processing of module MC
 SANY finished.
 @!@!@ENDMSG 2219 @!@!@
 @!@!@STARTMSG 2185:0 @!@!@
-Starting... (2016-05-12 09:49:57)
+Starting... (2016-05-12 10:18:05)
 @!@!@ENDMSG 2185 @!@!@
 @!@!@STARTMSG 2189:0 @!@!@
 Computing initial states...
 @!@!@ENDMSG 2189 @!@!@
 @!@!@STARTMSG 2190:0 @!@!@
-Finished computing initial states: 12 distinct states generated.
+Finished computing initial states: 6 distinct states generated.
 @!@!@ENDMSG 2190 @!@!@
 @!@!@STARTMSG 2193:0 @!@!@
 Model checking completed. No error has been found.
   Estimates of the probability that TLC did not check all reachable states
   because two distinct states had the same fingerprint:
-  calculated (optimistic):  val = 7.8E-18
-  based on the actual fingerprints:  val = 5.1E-18
+  calculated (optimistic):  val = 1.2E-17
+  based on the actual fingerprints:  val = 2.6E-17
 @!@!@ENDMSG 2193 @!@!@
 @!@!@STARTMSG 2201:0 @!@!@
-The coverage statistics at 2016-05-12 09:49:59
+The coverage statistics at 2016-05-12 10:18:06
 @!@!@ENDMSG 2201 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 5, col 12 to line 5, col 46 of module HourClock: 12
+  line 15, col 12 to line 15, col 24 of module AsynchInterface: 18
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 16, col 12 to line 16, col 25 of module AsynchInterface: 18
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 17, col 22 to line 17, col 24 of module AsynchInterface: 18
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 20, col 12 to line 20, col 25 of module AsynchInterface: 6
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 21, col 24 to line 21, col 26 of module AsynchInterface: 6
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 21, col 29 to line 21, col 31 of module AsynchInterface: 6
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2202:0 @!@!@
 End of statistics.
 @!@!@ENDMSG 2202 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(1) at 2016-05-12 09:49:59: 24 states generated (1,354 s/min), 12 distinct states found (677 ds/min), 0 states left on queue.
+Progress(2) at 2016-05-12 10:18:06: 30 states generated (2,834 s/min), 12 distinct states found (1,133 ds/min), 0 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
 @!@!@STARTMSG 2199:0 @!@!@
-24 states generated, 12 distinct states found, 0 states left on queue.
+30 states generated, 12 distinct states found, 0 states left on queue.
 @!@!@ENDMSG 2199 @!@!@
 @!@!@STARTMSG 2194:0 @!@!@
-The depth of the complete state graph search is 1.
+The depth of the complete state graph search is 2.
 @!@!@ENDMSG 2194 @!@!@
 @!@!@STARTMSG 2186:0 @!@!@
-Finished in 04s at (2016-05-12 09:49:59)
+Finished in 00s at (2016-05-12 10:18:06)
 @!@!@ENDMSG 2186 @!@!@

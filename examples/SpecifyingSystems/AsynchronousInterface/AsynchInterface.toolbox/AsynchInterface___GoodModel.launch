@@ -2,7 +2,7 @@
 <launchConfiguration type="org.lamport.tla.toolbox.tool.tlc.modelCheck">
 <stringAttribute key="TLCCmdLineParameters" value=""/>
 <intAttribute key="autoLockTime" value="15"/>
-<stringAttribute key="configurationName" value="Model_1"/>
+<stringAttribute key="configurationName" value="GoodModel"/>
 <intAttribute key="dfidDepth" value="100"/>
 <booleanAttribute key="dfidMode" value="false"/>
 <intAttribute key="distributedFPSetCount" value="0"/>
@@ -22,15 +22,17 @@
 <stringAttribute key="modelComments" value="f"/>
 <booleanAttribute key="modelCorrectnessCheckDeadlock" value="true"/>
 <listAttribute key="modelCorrectnessInvariants"/>
-<listAttribute key="modelCorrectnessProperties"/>
+<listAttribute key="modelCorrectnessProperties">
+<listEntry value="1TypeInvariant"/>
+</listAttribute>
 <stringAttribute key="modelExpressionEval" value=""/>
 <stringAttribute key="modelParameterActionConstraint" value=""/>
 <listAttribute key="modelParameterConstants">
-<listEntry value="Data;;Data;1;0"/>
+<listEntry value="Data;;{d1,d2,d3};0;0"/>
 </listAttribute>
 <stringAttribute key="modelParameterContraint" value=""/>
 <listAttribute key="modelParameterDefinitions"/>
-<stringAttribute key="modelParameterModelValues" value="{}"/>
+<stringAttribute key="modelParameterModelValues" value="{d1, d2, d3}"/>
 <stringAttribute key="modelParameterNewDefinitions" value=""/>
 <intAttribute key="numberOfWorkers" value="6"/>
 <booleanAttribute key="recover" value="false"/>

@@ -1,2 +1,7 @@
-*.*~
-examples.zip
+# ignore everything
+*
+!.gitignore
+!*.tla
+!examples
+!SafetyTime
+!*/
